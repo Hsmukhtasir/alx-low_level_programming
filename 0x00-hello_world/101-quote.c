@@ -10,6 +10,6 @@ int main(void)
 {
 	write(1, "and that piece of art is usefu\" - Dora Korpar, 2015-10-19", 58);
 	write(1, "\n", 1);
-	write(stderr, "Error", 10);
+	fprintf(stderr, "Error code: %d", 10);
 	return (1);
 }
