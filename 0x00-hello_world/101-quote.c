@@ -2,14 +2,14 @@
 #include <unistd.h>
 
 /**
- *main - Write a C program that prints exactly a sentence
+ *main - Entry point
+ *
+ * Description: Write a C program that printsto standard error
  *
  * Return: (1)
  */
 int main(void)
 {
-	write(1, "and that piece of art is usefu\" - Dora Korpar, 2015-10-19", 58);
-	write(1, "\n", 1);
-	fprintf(stderr, "Error code: %d", 10);
+	fprintf(stderr, "and that piece of art is usefu\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
