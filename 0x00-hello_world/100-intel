@@ -1,2 +1,2 @@
 #!/bin/bash
--Wall gcc -S $CFILE 
+gcc -S $CFILE 
