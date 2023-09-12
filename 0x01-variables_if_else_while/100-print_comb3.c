@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int n, m, comma, space,;
+	int n, m, comma, space;
 
 	comma = (char) ',';
 	space = (char) ' ';
