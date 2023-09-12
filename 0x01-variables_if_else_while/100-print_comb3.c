@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	int n, m, comma, space, l;
+	int n, m, comma, space,;
 
 	comma = (char) ',';
 	space = (char) ' ';
-	l = (char) '\n';
+	/*l = (char) '\n';*/
 	n = -1;
 
 	while (n <= 8)
