@@ -15,12 +15,12 @@ int main(void)
 	comma = (char) ',';
 	space = (char) ' ';
 	/*l = (char) '\n';*/
-	n = -1;
+	n = -49;
 
-	while (n <= 8)
+	while (n <= 56)
 	{
 		n++;
-		while (m <= 9)
+		while (m <= 57)
 		{
 			m = n + 1;
 			putchar(n);
