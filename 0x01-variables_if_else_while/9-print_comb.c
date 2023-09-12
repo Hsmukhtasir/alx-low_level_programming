@@ -21,6 +21,6 @@ int main(void)
 		putchar(comma);
 		putchar(space);
 		}
-		putchar();
+		putchar(l);
 	return (0);
 }
