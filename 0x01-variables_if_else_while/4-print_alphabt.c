@@ -3,7 +3,7 @@
 /**
  * main - Entry Point
  *
- * Description: Printing Alphabet in Lower case
+ * Description: Printing Alphabet in Lower case except e & q
  *
  * Return: (0) Always Success!
  */
