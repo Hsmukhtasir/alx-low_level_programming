@@ -10,10 +10,11 @@
 
 int main(void)
 {
-	int n, m, comma, space;
+	int n, m, comma, space, l;
 
 	comma = (char) ',';
 	space = (char) ' ';
+	l = (char) '\n';
 	n = 47;
 
 	while (n <= 56)
@@ -21,7 +22,7 @@ int main(void)
 		n++;
 		m = n + 1;
 		while (m <= 57)
-		{	
+		{
 			putchar(n);
 			putchar(m);
 			if (n == 56 && m == 57)
@@ -31,5 +32,6 @@ int main(void)
 			m++;
 		}
 	}
-		return (0);
+	putchar(l);
+	return (0);
 }
