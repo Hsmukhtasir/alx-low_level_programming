@@ -8,7 +8,7 @@
  * Return: (0) Always Success!
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char n, l;
 
@@ -18,5 +18,4 @@ int main(void)
 		_putchar(n);
 		}
 		_putchar(l);
-	return (0);
 }
