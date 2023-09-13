@@ -23,7 +23,6 @@ int main(void)
 		n = k + 1;
 		while (n <= 56)
 		{
-			n++;
 			m = n + 1;
 			while (m <= 57)
 			{
