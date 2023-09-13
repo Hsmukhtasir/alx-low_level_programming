@@ -19,17 +19,18 @@ int main(void)
 
 	while (k <= 55)
 	{
-		k++;
 		n = k + 1;
+		k++;
 		while (n <= 56)
 		{
+			n++;
 			m = n + 1;
 			while (m <= 57)
 			{
 				putchar(k);
 				putchar(n);
 				putchar(m);
-				if (n == 56 && m == 57)
+				if (n == 56 && m == 57 && k == 55)
 					break;
 				putchar(comma);
 				putchar(space);
