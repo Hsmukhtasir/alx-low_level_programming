@@ -14,17 +14,18 @@ int main(void)
 
 	comma = (char) ',';
 	space = (char) ' ';
-	/*l = (char) '\n';*/
-	n = -49;
+	n = 47;
 
 	while (n <= 56)
 	{
 		n++;
+		m = n + 1;
 		while (m <= 57)
-		{
-			m = n + 1;
+		{	
 			putchar(n);
 			putchar(m);
+			if (n == 56 && m == 57)
+				break;
 			putchar(comma);
 			putchar(space);
 			m++;
