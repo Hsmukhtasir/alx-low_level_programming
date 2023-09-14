@@ -8,7 +8,7 @@
  * Return: (1) if letter and (0) if not
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	char l;
 
