@@ -4,7 +4,7 @@
  * print_alphabet - Printing Alphabet in Lower case 10 times
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char n, l, x;
 
