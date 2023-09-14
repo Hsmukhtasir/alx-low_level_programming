@@ -6,7 +6,7 @@
 
 void print_alphabet_x10(void)
 {
-	char n, l,;
+	char n, l;
 	int x;
 
 	l = '\n';
