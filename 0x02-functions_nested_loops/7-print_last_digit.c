@@ -16,7 +16,7 @@ int print_last_digit(int n)
 	if (n >= 0 && n <= 9)
 	{
 		return (n);
-		_putchar(n + 48);
+		write(1, &n, 1);
 	}
 	else
 	{
