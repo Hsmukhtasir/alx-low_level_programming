@@ -15,7 +15,7 @@ int _abs(int n)
 	l = '\n';
 	if (n >= 0)
 		return (n);
-	else
+	else if (n < 0)
 	{
 		n = n * (-1);
 		return (n);
