@@ -14,23 +14,17 @@ int print_last_digit(int n)
 	char l;
 
 	l = '\n';
-	if (n >= 0 && n <= 9)
-	{
-		return (n);
-		write(1, &n, 1);
-	}
-	else if (n >= 10)
+	if (n >= 10)
 	{
 		n = n % 10;
-		return (n);
-		write(1, &n, 1);
+		_putchar(48 + n);
 	}
 	else
 	{
 		n = n * -1;
 		n = n % 10;
-		return (n);
-		write(1, &n, 1);
 	}
+	_putchar(48 + n);
+	return (n);
 	_putchar(l);
 }
