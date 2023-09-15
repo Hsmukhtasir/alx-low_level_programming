@@ -5,7 +5,7 @@
  *
  * @n: input
  *
- * Return: (0)
+ * Return: (n)
  */
 
 int _abs(int n)
@@ -14,8 +14,10 @@ int _abs(int n)
 
 	l = '\n';
 	if (n >= 0)
+	{
 		return (n);
-	else if (n < 0)
+	}
+	else
 	{
 		n = n * (-1);
 		return (n);
