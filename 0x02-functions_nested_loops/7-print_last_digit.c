@@ -19,8 +19,15 @@ int print_last_digit(int n)
 		return (n);
 		write(1, &n, 1);
 	}
+	else if (n >= 10)
+	{
+		n = n % 10;
+		return (n);
+		write(1, &n, 1);
+	}
 	else
 	{
+		n = n * -1;
 		n = n % 10;
 		return (n);
 		write(1, &n, 1);
