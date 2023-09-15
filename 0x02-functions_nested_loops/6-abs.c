@@ -3,18 +3,18 @@
 /**
  * _abs - computes the absolute value of an integer
  *
- * @int: input
+ * @c: input
  *
  * Return: (0)
  */
 
-int _abs(int)
+int _abs(int c)
 {
 	char l;
 	int n;
 
 	l = '\n';
-	n = (int  * -1);
+	n = (c  * (-1));
 	_putchar(n);
 	_putchar(l);
 	return (0);
