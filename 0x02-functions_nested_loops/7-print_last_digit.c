@@ -16,7 +16,7 @@ int print_last_digit(int n)
 	if (n >= 0 && n <= 9)
 	{
 		return (n);
-		return (n);
+		_putchar(n);
 	}
 	else
 	{
